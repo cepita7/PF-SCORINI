@@ -16,6 +16,19 @@ li{
     list-style: none;
 }
 
+
+.nosotros{
+    overflow-x: hidden;
+    background-image: url(../images/FONDO\ NOSOTROS.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .productos{
     overflow-x: hidden;
     background-image: url(../images/FONDO\ PRODUCTOS.jpg);
@@ -59,6 +72,16 @@ h3{
 }
 
 p{
+    color: #ffffff;
+	font-family: "ABeeZee";
+	font-weight: bold;
+	text-align: center;
+    justify-content: center;
+}
+
+
+
+.blanco{
     color: #ffffff;
 	font-family: "ABeeZee";
 	font-weight: bold;
