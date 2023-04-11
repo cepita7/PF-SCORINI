@@ -12,7 +12,7 @@ p{
 	font-family: "ABeeZee";
 	font-weight: bold;
 	text-align: center;
-	padding-top: 50px;
+    justify-content: center;
 }
 
 .home {
@@ -51,16 +51,19 @@ p{
 .contenedor{
     backdrop-filter: blur(10px); 
     justify-content: center;
+    padding: 0;
 }
 
 .carrusel{
     padding-bottom: 80px;
 }
 
-.separa{
-    padding-bottom: 50px;
+
+.img{
+    padding-bottom: 20px;
 }
 
-.video{
-    padding-bottom: 80px;
+.separa{
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
