@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding-left: 0;
+    overflow-x: hidden;
 }
 
 label{
@@ -177,12 +178,23 @@ p{
     padding-top: 10px;
     justify-content: center;
 }
+
+
+@media(max-width: 1920px){
+    .video{
+        width: 900px;
+        height: 600px;
+    }
+
+
+
+}
+
+
 @media (max-width: 700px){
     .video{
         width: fit-content;
         height: fit-content;
-        display: flex;
-        flex-wrap:wrap;
     }
     .contorno{
         height: fit-content;
