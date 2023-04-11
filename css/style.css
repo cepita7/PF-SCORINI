@@ -190,6 +190,15 @@ p{
 
 }
 
+@media(max-width: 1024px){
+    .video{
+        width: 700px;
+        height: 400px;
+    }
+
+
+
+}
 
 @media (max-width: 700px){
     .video{
