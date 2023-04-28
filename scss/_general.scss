@@ -35,23 +35,23 @@ h1{
 	padding-top: 50px;
 }
 
-h2{
+@mixin textos{
     color:$colorSecundario;
     font-family: "ABeeZee";
     font-weight: bold;
     font-size: 36px;
     text-align: center;
+  }
+  
+
+h2{
+    @include textos;
 }
 
 
 
 h3{
-    color:$colorSecundario;
-	font-family: "ABeeZee";
-	font-weight: bold;
-	font-size: 36px;
-	text-align: center;
-    justify-content: center;
+    @include textos;
 }
 
 p{
@@ -107,12 +107,3 @@ p{
     justify-content: center;
 }
 
-.contorno_s{
-    background-color: $colorPrimario;
-    border-radius: 30px;
-    padding: 10px;
-    margin: 15px;
-    box-shadow: 0px 0px 10px $colorSecundario;
-    padding-top: 10px;
-    justify-content: center;
-}
