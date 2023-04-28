@@ -1,0 +1,34 @@
+
+
+
+@media(max-width: 1920px){
+    .video{
+        width: 900px;
+        height: 600px;
+    }
+
+
+
+}
+
+@media(max-width: 1024px){
+    .video{
+        width: 700px;
+        height: 400px;
+    }
+
+
+
+}
+
+@media (max-width: 700px){
+    .video{
+        width: fit-content;
+        height: fit-content;
+    }
+    .contorno{
+        height: fit-content;
+        width: fit-content;
+    }
+
+}

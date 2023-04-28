@@ -1,0 +1,41 @@
+
+@mixin fondo_c{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.nosotros{
+    @include fondo_c;
+    background-image: url(../images/FONDO\ NOSOTROS.jpg);
+}
+
+.productos{
+    background-image: url(../images/FONDO\ PRODUCTOS.jpg);
+    @include fondo_c;
+
+}
+
+.servicios {
+    background-image: url(../images/FONDOSERVICIOS.jpg);
+    @include fondo_c;
+
+}
+
+.contacto{
+    @include fondo_c;
+    background-image: url(../images/FONDO\ CONTACTO.jpg);
+}
+
+
+.home {
+    @include fondo_c;
+    background-image: url(../images/FONDO\ HOME.jpg);
+}
