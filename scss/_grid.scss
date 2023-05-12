@@ -1,0 +1,40 @@
+footer {
+    background-color: $colorPrimario;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-item {
+    flex-basis: 33.33%;
+    text-align: center;
+  }
+  
+  header {
+    background-color: $colorSecundario;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: $colorPrimario;
+    font-family: "ABeeZee";
+  }
+  

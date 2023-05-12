@@ -100,6 +100,58 @@ p {
   justify-content: center;
 }
 
+/* HEADER */
+/* Estilos para pantallas grandes */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilos para pantallas grandes */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-item h3 {
+  margin: 0;
+}
+
+.footer-item img {
+  width: 30px;
+  height: 30px;
+}
+
 .footer {
   margin: 0;
   background-color: #fff;
@@ -124,6 +176,30 @@ p {
   }
   .contorno {
     height: fit-content;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu li {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-item {
+    margin-bottom: 10px;
   }
 }
 .nosotros {
@@ -179,6 +255,45 @@ p {
   display: flex;
   flex-direction: column;
   background-image: url(../images/FONDO\ HOME.jpg);
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  flex-basis: 33.33%;
+  text-align: center;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "ABeeZee";
 }
 
 /*# sourceMappingURL=style.css.map */
